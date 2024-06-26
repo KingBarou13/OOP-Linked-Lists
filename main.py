@@ -75,7 +75,16 @@ class LinkedList:
         self.head = previous
 
     def print_nth_element(self, n):
-        pass
+        
+        current = self.head
+        count = 1
+        while current != None:
+            if count == n:
+                print(current.data)
+                return
+            count += 1
+            current = current.next
+        print("Index out of range")
 
 # Example usage
 if __name__ == "__main__":
