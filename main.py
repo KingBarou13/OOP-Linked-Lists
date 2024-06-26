@@ -107,6 +107,6 @@ if __name__ == "__main__":
     print("Length of List:", ll.length())
 
     ll.reverse()
-    # ll.print_list()
-    # ll.print_nth_element(2)
-    # ll.print_nth_element(6)
+    ll.print_list()
+    ll.print_nth_element(2)
+    ll.print_nth_element(6)
